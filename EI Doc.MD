@@ -18,7 +18,20 @@
         - [Solman](#solman)
             - [Transaction Code](#transaction-code)
         - [ALM](#alm)
+            - [Requirement](#requirement)
+            - [Test](#test)
+            - [Test Set](#test-set)
+            - [Defect](#defect)
+            - [Version Control](#version-control)
         - [EI](#ei)
+            - [Sync and merge](#sync-and-merge)
+            - [Content activation](#content-activation)
+            - [BPCA](#bpca)
+    - [Strcuture](#strcuture)
+        - [EI Code Structure](#ei-code-structure)
+            - [Important Files](#important-files)
+        - [EI & Solman & ALM Communication Strcuture](#ei--solman--alm-communication-strcuture)
+        - [EI & Solman & ALM Web Service Structure](#ei--solman--alm-web-service-structure)
     - [Others](#others)
         - [Links](#links)
         - [Resources](#resources)
@@ -114,6 +127,15 @@
 
 ## Environment Configuration
 ---
+1. Exchange WSDL
+2. Set up security
+3. Create project in Solman and ALM
+4. Do association
+5. Push blueprints
+6. Synchronize defects
+7. Update test results
+8. Do BPCA -- test set
+9. Sync and merge
 
 ## Terms
 ---
@@ -122,7 +144,7 @@
 * `solman_setup`
     * Exchange WSDL for Solman and EI
     * 
-* `solman_workcenter`
+* `sm_workcenter`
     * Create Association
     * Push blueprint
 * se16:
@@ -151,7 +173,23 @@
     * manage defects
 * [**More...**](https://note.youdao.com/share/?id=1ea4010d685f42794bb1ba6c6b0b1890&type=note#/)
 ### ALM
+#### Requirement
+#### Test
+#### Test Set
+#### Defect
+#### Version Control
+
 ### EI
+#### Sync and merge
+#### Content activation
+#### BPCA
+
+## Strcuture
+---
+### EI Code Structure
+#### Important Files
+### EI & Solman & ALM Communication Strcuture
+### EI & Solman & ALM Web Service Structure
 
 ## Others
 ---
