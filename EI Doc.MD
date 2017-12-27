@@ -1,8 +1,43 @@
 # EI DEV GUIDE
-## Introduction
 
-## Preparation
-### Concept
+<!-- TOC -->
+
+- [EI DEV GUIDE](#ei-dev-guide)
+    - [Introduction](#introduction)
+        - [Application Lifecycle Management (ALM)](#application-lifecycle-management-alm)
+        - [Enterprise Intergration (EI)](#enterprise-intergration-ei)
+        - [Solution Management (Solman)](#solution-management-solman)
+    - [Getting Started](#getting-started)
+        - [Preparation](#preparation)
+            - [Concept](#concept)
+            - [Software](#software)
+        - [Solman Setup](#solman-setup)
+        - [EI Setup](#ei-setup)
+    - [Environment Configuration](#environment-configuration)
+    - [Terms](#terms)
+        - [Solman](#solman)
+            - [Transaction Code](#transaction-code)
+        - [ALM](#alm)
+        - [EI](#ei)
+    - [Others](#others)
+        - [Links](#links)
+        - [Resources](#resources)
+        - [Emails for Consult](#emails-for-consult)
+
+<!-- /TOC -->
+
+## Introduction
+---
+### Application Lifecycle Management (ALM)
+### Enterprise Intergration (EI)
+* An extension over ALM that works with SAP Solution Manager Adapter
+### Solution Management (Solman)
+
+
+## Getting Started
+---
+### Preparation
+#### Concept
 1. Apache CXF
     * Configuration
     * Log
@@ -18,7 +53,7 @@
         * SSL
 3. Log4j
 
-### Software
+#### Software
 * Essence
     * Java Env: JRE * JDK
     * Java IDE: Eclipse | IDEA
@@ -32,20 +67,62 @@
     * Remote Desktop Connection Manager: Easy to connect to VMs
     * Editor: Notepad++ | Sublime | VSCode | ...
 
-## Getting Started
+
 ### Solman Setup
-* Install Sap Logon
-* Add connection to Solman server. Avaiable servers in below table can be used.
+1. Install Sap Logon
+2. Add connection to Solman server. Avaiable servers in below table can be used.
 
 ### EI Setup
+1. Install all necessary softwares
+    * Install Visual studio
+    * Set up Java environment: JDK & JRE
+    * Set up Maven & Ant environment
+    * Install git
+2. Download EI code from **Stash**
+3. Add `settings.xml` to **.m2** folder to make all maven dependencies work
+4. Add run configurator for `set up`
+    ```Set up main class
+    com.hp.alm.platform.siteadmin.setup.Setup
+    ```
+5. Add `DB configurator`. Avaiable servers in below table can be used.
+6. Run `Ant build` according to the sequence: APM -> EI
+7. Add run configurator for `Jetty Runner`
+    * **VM options**
+    ```jetty runner VM options
+   	-Dmercury.td.sa_config_dir=C:\Users\jiezhang\Documents\HP_EI\Code\site_admin
+	-Xmx512m
+	-XX:MaxPermSize=512m
+	-Djava.io.tmpdir=C:\temp\ALM_log
+    ``` 
+    * **Program arguments**
+    ```jetty runner program arguments
+    --defaultroot
+	C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\defaultroot
+	C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\StaticData
+    C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war
+    ```
+8. Add run configurator for Saml `EIConfigurator`
+    * **VM options**
+    ```EI configurator vm options
+    -Dmercury.td.sa_config_dir=C:\Users\jiezhang\Documents\HP_EI\Code\site_admin
+	-Djava.io.tmpdir=C:\temp\ALM_log
+    ```
+    * **Program arguments**
+    ``` EI configurator program arguments
+    -gui C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war\WEB-INFO
+    ```
+
+## Environment Configuration
+---
 
 ## Terms
-### Solution Manager (Solman)
+---
+### Solman
 #### Transaction Code 
-* solman_setup
+* `solman_setup`
     * Exchange WSDL for Solman and EI
     * 
-* solman_workcenter
+* `solman_workcenter`
     * Create Association
     * Push blueprint
 * se16:
@@ -73,10 +150,11 @@
 * crm_ui
     * manage defects
 * [**More...**](https://note.youdao.com/share/?id=1ea4010d685f42794bb1ba6c6b0b1890&type=note#/)
-### Application Lifecycle Management (ALM)
-### Enterprise Intergration (EI)
+### ALM
+### EI
 
 ## Others
+---
 ### Links
 
 Description | Address | Comment
@@ -118,6 +196,7 @@ DB Type | Server | Account | Comment
 --------|--------|---------|--------
 SQL Server | 16.186.77.172 | sa/1Qaz2wsx3edc | jdbc:mercury:sqlserver://16.186.77.172:1433
 Oracle | 16.155.198.156 | system/W3lcome1 |  jdbc:mercury:oracle://16.155.198.156:1521;servicename=orcl.hpeswlab.net
+SQL Server | EI2008R2.hpeswlab.net\EISQL2008R2 | sa\1Qaz2wsx3edc | port = 1443
 
 ### Emails for Consult
 Type | Name | Email | Comment
