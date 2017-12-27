@@ -29,7 +29,10 @@
             - [BPCA](#bpca)
     - [Strcuture](#strcuture)
         - [EI Code Structure](#ei-code-structure)
+            - [Server Backend](#server-backend)
+            - [Server Frontend](#server-frontend)
             - [Important Files](#important-files)
+            - [Important Paths](#important-paths)
         - [EI & Solman & ALM Communication Strcuture](#ei--solman--alm-communication-strcuture)
         - [EI & Solman & ALM Web Service Structure](#ei--solman--alm-web-service-structure)
     - [Others](#others)
@@ -187,7 +190,27 @@
 ## Strcuture
 ---
 ### EI Code Structure
+#### Server Backend
+* EI Projects under ***/assets/Backend/Server***
+    * `EIConfigurator`
+    * `ei-jetty-runner`
+    * `EIServerCommon`
+    * `EIServerCore`
+    * `QCServer` -> `SPI`
+    * `SPICore`
+#### Server Frontend
+* C# Solution **EnterpriseIntegration.sln** under ***/assets/Backend/Client/EnterpriseIntegration***
+    * `EnterpriseIntegration`
+    * `EnterpriseIntegrationUI`
 #### Important Files
+* log4j.properties
+* crypto.properties
+* HPEI.keystore
+* SAMLClientRepository.xml
+* SMFiledsMetaData.xml
+#### Important Paths
+* webapps\qcbin\WEB-INF\classes 
+* webapps\qcbin\Install\Extensions 
 ### EI & Solman & ALM Communication Strcuture
 ### EI & Solman & ALM Web Service Structure
 
@@ -207,7 +230,7 @@ ALM | \\mydastr01.hpeswlab.net\products\TestDirector\ALMDev\ | download ALM serv
 
 ### Resources
 
-* [SAP servers](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/SAP+Environments)
+* [SAP servers](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/SAP+Environments "More...")
 
 Solman Version | Server | Account | Comment
 ---------------|--------|---------|--------
@@ -228,7 +251,7 @@ ALM Version | Server | Machine Account | Project Account | Comment
 12.01 | shcuftdev003.hpeswlab.net IP: 16.155.194.105 | appsadmin / appsadmin | sa/ | DEV Environment
 12.55* | IP: 16.165.217.185 | admin / 1Qaz2wsx3edc | sa/ | DEV Environment
 
-* [Database Servers](https://rndwiki.houston.softwaregrp.net/confluence/pages/viewpage.action?pageId=122034777)
+* [Database Servers](https://rndwiki.houston.softwaregrp.net/confluence/pages/viewpage.action?pageId=122034777 "More...")
 
 DB Type | Server | Account | Comment
 --------|--------|---------|--------
@@ -249,15 +272,3 @@ EI QA | Chen, Xin-Yuan (Mandy) | xin-yuanc@hpe.com | QA expert
 Jenkins | Ding, Chen  | chen.ding@hpe.com | ALM Devops
 Jenkins | Zhou, Weijia (Eric) | weijia.zhou@hpe.com | ALm Devops and responsible for EI
 Stash | Peleg, Ronen | peleg@hpe.com | Push access for EI git repository
-
-
-
-
-
-
-
-
-
-
-
-
