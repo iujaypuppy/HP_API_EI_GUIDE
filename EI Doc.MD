@@ -9,6 +9,7 @@
         * Inbound Message
         * Outbound Message
     * Security
+    * Demo
 2. Web Service
     * WSDL
         * SOAP
@@ -22,6 +23,7 @@
     * Java Env: JRE * JDK
     * Java IDE: Eclipse | IDEA
     * Visual Studio
+    * Sap Logon
     * Maven & Ant
     * Git
 * Tool
@@ -30,6 +32,12 @@
     * Remote Desktop Connection Manager: Easy to connect to VMs
     * Editor: Notepad++ | Sublime | VSCode | ...
 
+## Getting Started
+### Solman Setup
+* Install Sap Logon
+* Add connection to Solman server. Avaiable servers in below table can be used.
+
+### EI Setup
 
 ## Terms
 ### Solution Manager (Solman)
