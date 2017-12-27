@@ -43,7 +43,6 @@
 <!-- /TOC -->
 
 ## Introduction
----
 ### Application Lifecycle Management (ALM)
 ### Enterprise Intergration (EI)
 * An extension over ALM that works with SAP Solution Manager Adapter
@@ -51,7 +50,6 @@
 
 
 ## Getting Started
----
 ### Preparation
 #### Concept
 1. Apache CXF
@@ -129,7 +127,6 @@
     ```
 
 ## Environment Configuration
----
 1. Exchange WSDL
 2. Set up security
 3. Create project in Solman and ALM
@@ -141,7 +138,6 @@
 9. Sync and merge
 
 ## Terms
----
 ### Solman
 #### Transaction Code 
 * `solman_setup`
@@ -215,7 +211,6 @@
 ### EI & Solman & ALM Web Service Structure
 
 ## Others
----
 ### Links
 
 Description | Address | Comment
