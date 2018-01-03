@@ -101,7 +101,7 @@
     * Set up Maven & Ant environment
     * Install git
 2. Download EI code from **Stash**
-3. Add `settings.xml` to **.m2** folder to make all maven dependencies work
+3. Add [`settings.xml`](/EI/Resources) to **.m2** folder to make all maven dependencies work
 4. Add run configurator for `set up`
     ```Set up main class
     com.hp.alm.platform.siteadmin.setup.Setup
@@ -161,9 +161,9 @@
 9. Do BPCA -- test set
 10. Content activation -- Migration from version upgrade
 10. More -- Reference doc
-    * [Solman 7.1](/EI/Docs/7.1)
+    * [Solman 7.1](/EI/Documents/7.1)
         * `EI Sanity.mht` for step 1-7
-    * [Solman 7.2](/EI/Docs/7.2)
+    * [Solman 7.2](/EI/Documents/7.2)
         * `Partner Test Management - Setup Guide.pdf` for step 1
         * `Partner_Test_Management_SAML2_Configuration.pdf` for step 2
         * `Partner_Test_Management_Adapter_Operations.pdf` for step 3-8
