@@ -66,7 +66,7 @@
         * Outbound Message
     * Security
     * Demo [More ...](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples)
-        * `sts` with SAML & SSL [More link](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples/sts)
+        * `sts` with SAML & SSL [More...](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples/sts)
 2. Web Service
     * WSDL
         * SOAP
@@ -147,7 +147,7 @@
     ``` EI configurator program arguments
     -gui C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war\WEB-INFO
     ```
-9. More[ ...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ ...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
+9. More[ Link1...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ Link2...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
 
 ## Environment Configuration
 1. Exchange WSDL
