@@ -161,9 +161,9 @@
 9. Do BPCA -- test set
 10. Content activation -- Migration from version upgrade
 10. More -- Reference doc
-    * [Solman 7.1](/Docs/7.1)
+    * [Solman 7.1](/EI/Docs/7.1)
         * `EI Sanity.mht` for step 1-7
-    * [Solman 7.2](/Docs/7.2)
+    * [Solman 7.2](/EI/Docs/7.2)
         * `Partner Test Management - Setup Guide.pdf` for step 1
         * `Partner_Test_Management_SAML2_Configuration.pdf` for step 2
         * `Partner_Test_Management_Adapter_Operations.pdf` for step 3-8
