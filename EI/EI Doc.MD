@@ -136,6 +136,7 @@
         ```
         \\mydastr01.hpeswlab.net\products\QC_for_SAP\APM\APM12.00\alm1221patch05.latest\APM.qcx\application\20qcbin.war)
         ```
+
 8. Add run configurator for Saml `EIConfigurator`
     * **VM options**
     ```EI configurator vm options
@@ -146,7 +147,7 @@
     ``` EI configurator program arguments
     -gui C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war\WEB-INFO
     ```
-9. More[ Link1...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ Link2...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
+9. More[ ...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ ...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
 
 ## Environment Configuration
 1. Exchange WSDL
@@ -160,9 +161,9 @@
 9. Do BPCA -- test set
 10. Content activation -- Migration from version upgrade
 10. More -- Reference doc
-    * Solman 7.1
-        * [`EI Sanity.mht`](\Docs\7.1\EI_Sanity.mht) for step 1-7
-    * Solman 7.
+    * [Solman 7.1](/Docs/7.1)
+        * `EI Sanity.mht` for step 1-7
+    * [Solman 7.2](/Docs/7.2)
         * `Partner Test Management - Setup Guide.pdf` for step 1
         * `Partner_Test_Management_SAML2_Configuration.pdf` for step 2
         * `Partner_Test_Management_Adapter_Operations.pdf` for step 3-8
