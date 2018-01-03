@@ -46,29 +46,27 @@
 ### Application Lifecycle Management (ALM)
 * Application Lifecycle Management (ALM) empowers organizations to manage the core application lifecycle, from requirements through deployment, granting application teams the crucial visibility and collaboration needed for predictable, repeatable, and adaptable delivery of modern applications.
 * It includes tools for **requirements management**, **test planning** and **functional testing**, **performance testing**(when used with HP Performance Center), developer management (through integration with the most widely used developer environments such as Collabnet, TeamForge and Microsoft Visual Studio), and **defect management**.
-* https://en.wikipedia.org/wiki/HP_Application_Lifecycle_Management
-* http://admhelp.microfocus.com/alm/en/latest/online_help/Content/Resources/_TopNav/_TopNav_Home.htm#
+* [Wiki](https://en.wikipedia.org/wiki/HP_Application_Lifecycle_Management)
+* [Online Help](http://admhelp.microfocus.com/alm/en/latest/online_help/Content/Resources/_TopNav/_TopNav_Home.htm#)
 ### Enterprise Intergration (EI)
 * An **extension** over ALM that works with SAP Solution Manager Adapter
-* http://admhelp.microfocus.com/alm/en/latest/online_help/Content/EI_User.htm
+* [Online Help](http://admhelp.microfocus.com/alm/en/latest/online_help/Content/EI_User.htm)
 ### Solution Management (Solman)
 * SAP Solution Manager is an integrated platform to align business and IT on one business process landscape and drive the “business of IT” from a common understanding of business value, business models, operating models and solution powered by IT.
-* https://en.wikipedia.org/wiki/SAP_Solution_Manager
-* https://support.sap.com/en/solution-manager.html
-
+* [Wiki](https://en.wikipedia.org/wiki/SAP_Solution_Manager)
+* [Online Help](https://support.sap.com/en/solution-manager.html)
 
 ## Getting Started
 ### Preparation
 #### Concept
-1. Apache CXF [...](http://cxf.apache.org/)
+1. Apache CXF [ More ...](http://cxf.apache.org/)
     * Configuration
-    * Log [...](http://cxf.apache.org/docs/configuration.html)
+    * Log [More ...](http://cxf.apache.org/docs/configuration.html)
         * Inbound Message
         * Outbound Message
     * Security
-    * Demo [...](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples)
-        * [sts](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples/sts)
-            * Saml2 & SSL
+    * Demo [More ...](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples)
+        * `sts` with SAML & SSL [More link](https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples/sts)
 2. Web Service
     * WSDL
         * SOAP
@@ -125,10 +123,19 @@
 	C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\StaticData
     C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war
     ```
-    * Defaultroot and StaticData can be accessed from **rubicon** [Example](\\mydastr01.hpeswlab.net\products\TestDirector\ALMDev\ALM_Sarah\stabs\alm1221patches\Archives\12.21.4990.0.0\Development_StaticData\TDServer)
+    * Defaultroot and StaticData can be accessed from **rubicon** 
+    ```
+    \\mydastr01.hpeswlab.net\products\TestDirector\ALMDev\ALM_Sarah\stabs\alm1221patches\Archives\12.21.4990.0.0\Development_StaticData\TDServer)
+    ```
     * 20qcbin.war should be combined with APM and EI. 
-        * [QC_for_SAP EI example](\\mydastr01.hpeswlab.net\products\QC_for_SAP\EI\EI12.00\alm1221patch05.latest\SPI.qcx\application\20qcbin.war)
-        * [QC_for_SAP APM example](\\mydastr01.hpeswlab.net\products\QC_for_SAP\APM\APM12.00\alm1221patch05.latest\APM.qcx\application\20qcbin.war)
+        * QC_for_SAP EI
+        ```
+        \\mydastr01.hpeswlab.net\products\QC_for_SAP\EI\EI12.00\alm1221patch05.latest\SPI.qcx\application\20qcbin.war)
+        ```
+        * QC_for_SAP APM 
+        ```
+        \\mydastr01.hpeswlab.net\products\QC_for_SAP\APM\APM12.00\alm1221patch05.latest\APM.qcx\application\20qcbin.war)
+        ```
 8. Add run configurator for Saml `EIConfigurator`
     * **VM options**
     ```EI configurator vm options
@@ -139,7 +146,7 @@
     ``` EI configurator program arguments
     -gui C:\Users\jiezhang\Documents\HP_EI\Tools\masterSSL\20qcbin.war\WEB-INFO
     ```
-9. More[ ...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ ...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
+9. More[ Link1...](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/EI+Integration#EIIntegration-DevEnvironment)[ Link2...](https://note.youdao.com/share/?id=8b54c7148c6330fc9f7f5ee5960dc96d&type=notebook#/16C1507F14294B5693DC44A727814861)
 
 ## Environment Configuration
 1. Exchange WSDL
@@ -154,8 +161,8 @@
 10. Content activation -- Migration from version upgrade
 10. More -- Reference doc
     * Solman 7.1
-        * `EI Sanity.mht` for step 1-7
-    * Solman 7.2
+        * [`EI Sanity.mht`](\Docs\7.1\EI_Sanity.mht) for step 1-7
+    * Solman 7.
         * `Partner Test Management - Setup Guide.pdf` for step 1
         * `Partner_Test_Management_SAML2_Configuration.pdf` for step 2
         * `Partner_Test_Management_Adapter_Operations.pdf` for step 3-8
