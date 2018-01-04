@@ -38,8 +38,9 @@
         - [EI & Solman & ALM Communication Strcuture](#ei--solman--alm-communication-strcuture)
         - [EI & Solman & ALM Web Service Structure](#ei--solman--alm-web-service-structure)
     - [Trouble Shooting](#trouble-shooting)
-        - [Logs](#logs)
+        - [[`EI Logs Configuration.docx`](\EI\Documents\)](#ei-logs-configurationdocx\ei\documents\)
         - [Sapmle Inbound & Outbound Request and Response](#sapmle-inbound--outbound-request-and-response)
+        - [Common Cases](#common-cases)
     - [Others](#others)
         - [Links](#links)
         - [Resources](#resources)
@@ -258,8 +259,9 @@
 ### EI & Solman & ALM Web Service Structure
 
 ## Trouble Shooting
-### Logs
+### [`EI Logs Configuration.docx`](\EI\Documents\)
 ### Sapmle Inbound & Outbound Request and Response
+### Common Cases
 
 ## Others
 ### Links
