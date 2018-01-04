@@ -24,9 +24,11 @@
             - [Defect](#defect)
             - [Version Control](#version-control)
         - [EI](#ei)
-            - [Sync and merge](#sync-and-merge)
-            - [Content activation](#content-activation)
-            - [BPCA](#bpca)
+            - [Solman 7.2 feature](#solman-72-feature)
+                - [Sync and merge](#sync-and-merge)
+                - [Content activation](#content-activation)
+                - [BPCA](#bpca)
+                - [Audit Log](#audit-log)
     - [Strcuture](#strcuture)
         - [EI Code Structure](#ei-code-structure)
             - [Server Backend](#server-backend)
@@ -212,9 +214,18 @@
 #### Version Control
 
 ### EI
-#### Sync and merge
-#### Content activation
-#### BPCA
+#### Solman 7.2 feature
+* [Wiki](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/Solution+Manager+7.2)
+##### Sync and merge
+* [Sync](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/Test+Sync): base->child
+* merge: child->base
+* Process
+    * [Copy tests](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/Tests+Copy)
+    * [Copy linkage](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/Tests+Linkage)
+##### Content activation
+##### BPCA
+##### Audit Log
+* [Wiki](https://rndwiki.houston.softwaregrp.net/confluence/display/UFT/Transfer+Log)
 
 ## Strcuture
 ### EI Code Structure
