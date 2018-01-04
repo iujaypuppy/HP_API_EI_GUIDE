@@ -1,0 +1,1147 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:AgsSmPushBlueprint>
+         <!--Optional:-->
+         <AgsSmPushBlueprintRequest>
+            <!--Optional:-->
+            <LoginInfo>
+               <Username></Username>
+               <Password></Password>
+            </LoginInfo>
+            <ProjectInfo>
+               <ProjectId>Branch1</ProjectId>
+               <ProjectAttr>syncmerge</ProjectAttr>
+            </ProjectInfo>
+            <AssociationId>0039wgEk7jIlciVjkCl1C1</AssociationId>
+            <Blueprint>
+               <?xml version="1.0" encoding="utf-16"?>
+               <BusinessBlueprint>
+                  <Association Id="0039wgEk7jIlciVjkCl1C1"/>
+                  <SolutionManager SID="FBT" Client="200"/>
+                  <SolutionManagerUser Id="C5235751"/>
+                  <SolutionLandscape Id="{XO{VzLc7kQqvGkYB4sDzW">
+                     <Name>TECH004</Name>
+                     <Desc>Test Solution 4</Desc>
+                     <Branch Id="29u1GJJL7kIobbnuquzAO1">
+                        <Name>MAINTENANCE</Name>
+                        <Desc>Maintenance</Desc>
+                        <ParentBranch Id="{XO{VzLc7kQqvGkYB4sDzW">
+                           <Name>PRODUCTION</Name>
+                        </ParentBranch>
+                        <Language>EN</Language>
+                        <SystemLandscape>
+                           <SystemRoles>
+                              <SystemRole Id="C" Desc="" IsDefault="true">
+                                 <System Id="FBT" Client="200">
+                                    <Desc>FBT on lddbfbt</Desc>
+                                 </System>
+                                 <System Id="FLQ" Client="200">
+                                    <Desc>FLQ on lddbflq</Desc>
+                                 </System>
+                              </SystemRole>
+                              <SystemRole Id="P" Desc="">
+                                 <System Id="CIZ" Client="001">
+                                    <Desc>CIZ on lddbciz</Desc>
+                                 </System>
+                                 <System Id="CIZ" Client="001">
+                                    <Desc>CIZ on lddbciz</Desc>
+                                 </System>
+                              </SystemRole>
+                              <SystemRole Id="T" Desc="">
+                                 <System Id="FA7" Client="200">
+                                    <Desc>FA7 on lddbfa7</Desc>
+                                 </System>
+                                 <System Id="FA7" Client="200">
+                                    <Desc>FA7 on lddbfa7</Desc>
+                                 </System>
+                              </SystemRole>
+                           </SystemRoles>
+                           <LogicalComponentGroups>
+                              <LogicalComponentGroup>
+                                 <Name>7ILD476VMYPONNHFCVVQLHQN7U</Name>
+                                 <Desc>LCG004</Desc>
+                                 <LogicalComponent Id="2 ">
+                                    <SystemRole Id="C" Desc="Flying">
+                                       <System Id="FBT" Client="200">
+                                          <Desc>FBT on lddbfbt</Desc>
+                                       </System>
+                                    </SystemRole>
+                                    <SystemRole Id="P" Desc="ZFZFLYING" IsDefault="true">
+                                       <System Id="FBT" Client="200">
+                                          <Desc>FBT on lddbfbt</Desc>
+                                       </System>
+                                    </SystemRole>
+                                    <SystemRole Id="T" Desc="">
+                                       <System Id="FA7" Client="200">
+                                          <Desc>FA7 on lddbfa7</Desc>
+                                       </System>
+                                    </SystemRole>
+                                 </LogicalComponent>
+                              </LogicalComponentGroup>
+                              <LogicalComponentGroup>
+                                 <Name>ABIFNA3FKEPNNNOIXHXYPM2SCA</Name>
+                                 <Desc>LCG005</Desc>
+                                 <LogicalComponent Id="2 ">
+                                    <SystemRole Id="C" Desc="Flying" >
+                                       <System Id="FLQ" Client="200">
+                                          <Desc>FLQ on lddbflq</Desc>
+                                       </System>
+                                    </SystemRole>
+                                    <SystemRole Id="P" Desc="ZFZFLYING" IsDefault="true">
+                                       <System Id="FBT" Client="200">
+                                          <Desc>FBT on lddbfbt</Desc>
+                                       </System>
+                                    </SystemRole>
+                                    <SystemRole Id="T" Desc="">
+                                       <System Id="FA7" Client="200">
+                                          <Desc>FA7 on lddbfa7</Desc>
+                                       </System>
+                                    </SystemRole>
+                                 </LogicalComponent>
+                              </LogicalComponentGroup>
+                           </LogicalComponentGroups>
+                        </SystemLandscape>
+                        <NodeTypes>
+                           <StructureNodes>
+                              <StructureNode>DIAGRAMGRP</StructureNode>
+                              <StructureNode>DOCUGRP</StructureNode>
+                              <StructureNode>E2EROOT</StructureNode>
+                              <StructureNode>EXECGRP</StructureNode>
+                              <StructureNode>FOLDER</StructureNode>
+                              <StructureNode>FOLDERGRP</StructureNode>
+                              <StructureNode>LIBEXECACH</StructureNode>
+                              <StructureNode>LIBEXECACHGRP</StructureNode>
+                              <StructureNode>LIBEXECGRP</StructureNode>
+                              <StructureNode>LIBEXECROOT</StructureNode>
+                              <StructureNode>LIBPROCSTEPACHFOLDER</StructureNode>
+                              <StructureNode>LIBPROCSTEPACHFOLDERGRP</StructureNode>
+                              <StructureNode>LIBPROCSTEPROOT</StructureNode>
+                              <StructureNode>LIBROOT</StructureNode>
+                              <StructureNode>LIBROOTGRP</StructureNode>
+                              <StructureNode>MADA</StructureNode>
+                              <StructureNode>ORGUNT</StructureNode>
+                              <StructureNode>PROC</StructureNode>
+                              <StructureNode>PROCDIA</StructureNode>
+                              <StructureNode>PROCGRP</StructureNode>
+                              <StructureNode>PROCSTEP</StructureNode>
+                              <StructureNode>PROCSTEPGRP</StructureNode>
+                              <StructureNode>PROCVAR</StructureNode>
+                              <StructureNode>PROCVARGRP</StructureNode>
+                              <StructureNode>REF_CRMBSPFRAMELOGCOMP</StructureNode>
+                              <StructureNode>REF_CRMWEBCLIENTLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECBSPAPPLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECCUSTLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECFIORILOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECGENLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECPROGLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECSFLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECTRANLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECWDYAPPCONFLOGCOMP</StructureNode>
+                              <StructureNode>REF_EXECWDYAPPLOGCOMP</StructureNode>
+                              <StructureNode>REF_PROCSTEP</StructureNode>
+                              <StructureNode>REF_SAPSTJOBDOCU</StructureNode>
+                              <StructureNode>REF_WDYJAVASOLMANLOGCOMP</StructureNode>
+                              <StructureNode>REF_WEBLINKLOGCOMP</StructureNode>
+                              <StructureNode>ROOT</StructureNode>
+                              <StructureNode>ROOTGRP</StructureNode>
+                              <StructureNode>SCN</StructureNode>
+                              <StructureNode>TESTGRP</StructureNode>
+                           </StructureNodes>
+                           <ExecutableNodes>
+                              <ExecutableNode>CRM_BSP_FRAMELOGCOMP</ExecutableNode>
+                              <ExecutableNode>CRM_WEBCLIENTLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECBSPAPPLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECCUSTLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECFIORILOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECGENLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECPROGLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECSFLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECTRANLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECWDYAPPCONFLOGCOMP</ExecutableNode>
+                              <ExecutableNode>EXECWDYAPPLOGCOMP</ExecutableNode>
+                              <ExecutableNode>SAP_ST_JOB_DOCU</ExecutableNode>
+                              <ExecutableNode>WDY_JAVA_SOLMANLOGCOMP</ExecutableNode>
+                              <ExecutableNode>WEBLINKLOGCOMP</ExecutableNode>
+                           </ExecutableNodes>
+                           <DocumentNodes>
+                              <DocumentNode>BESTPRACTICEDOCU</DocumentNode>
+                              <DocumentNode>KWOBJ</DocumentNode>
+                              <DocumentNode>KWWEBLINK</DocumentNode>
+                           </DocumentNodes>
+                        </NodeTypes>
+                        <Views>
+                           <View Id="051MWq{r7kQqvKlLOnoIeG">
+                              <Name>CosView1</Name>
+                              <Folder TypeDesc="Solution" Type="ROOT" Id="{XO{VzLc7kQqvGkYB4sDzW" ModifiedOn="20170110135913 ">
+                                 <Desc>Solution</Desc>
+                                 <Folder TypeDesc="Solution" Type="ROOTGRP" Id="{XO{VzLc7kQqvGlOSdvjzW" ModifiedOn="20170110135913 " Visible="false">
+                                    <Desc>Solution</Desc>
+                                    <Folder TypeDesc="BusinessProcesses" Type="E2EROOT" Id="{XO{VzLc7kQqvGlOSdwDzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Business Processes</Desc>
+                                       <Folder TypeDesc="Folders" Type="FOLDERGRP" Id="051MWq{r7kQqvJStLZIIXm" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Folders</Desc>
+                                          <Folder TypeDesc="Scenario" Type="SCN" Id="051MWq{r7kQqvJStLZJoXm" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                             <Desc>Scenario1</Desc>
+                                             <Folder TypeDesc="Processes" Type="PROCGRP" Id="051MWq{r7kQqvJXFW85IY0" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Processes</Desc>
+                                                <Folder TypeDesc="Process" Type="PROC" Id="051MWq{r7kQqvJXFW86oY0" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                                   <Desc>Process1</Desc>
+                                                   <Folder TypeDesc="ProcessSteps" Type="PROCSTEPGRP" Id="051MWq{r7kQqvJkwjFOIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps</Desc>
+                                                      <Folder TypeDesc="ProcessStepRef" Type="REF_PROCSTEP" Id="051MWq{r7kQqvKEFBuyocm" ModifiedOn="20170110135913 ">
+                                                         <Desc>TXCOM Maintenance</Desc>
+                                                         <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvKEFBuvocm" RefId1="051MWq{r7kQqvKEFBuyocm" Visible="false" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                            <Desc>TXCOM Maintenance</Desc>
+                                                            <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvKEFBuwIcm" RefId1="051MWq{r7kQqvKEFBuyocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>Executables</Desc>
+                                                               <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBuwocm" RefId1="051MWq{r7kQqvKEFBuyocm" Visible="false" ModifiedOn="20170110135913 ">
+                                                                  <Desc>TXCOM Maintenance</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" RefId1="051MWq{r7kQqvKEFBuyocm" RefId2="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>SM54</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                    <Folder TypeDesc="Libraries" Type="LIBROOT" Id="{XO{VzLc7kQqvGlOSdwjzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Libraries</Desc>
+                                       <Folder TypeDesc="Libraries" Type="LIBROOTGRP" Id="{XO{VzLc7kQqvGlOSdxDzW" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Libraries</Desc>
+                                          <Folder TypeDesc="ProcessStepLibrary" Type="LIBPROCSTEPROOT" Id="{XO{VzLc7kQqvGlOSdxjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Process Step Library</Desc>
+                                             <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLCIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Process Steps Folder</Desc>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLCobm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLDIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLDobm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLEIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLEobm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLFIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLFobm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLGIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvJkYjLGobm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvJkYjLHIbm" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>User Maintenance</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" RefId1="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>User Maintenance</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SU01</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvLOjbSjInG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvLOjbSjonG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Trust Manager</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" RefId1="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Trust Manager</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>STRUST</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvKEFBuuocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvKEFBuvIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvKEFBuvocm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvKEFBuwIcm" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>TXCOM Maintenance</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" RefId1="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>TXCOM Maintenance</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>SM54</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81beI2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81beo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81bfI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81bfo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroBP81bgI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroBP81bgo2m" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>Overview of job selection</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" RefId1="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>Overview of job selection</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SM37</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQfoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQgIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQgoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQhIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQhoZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQiIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroFyRXQioZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroFyRXQjIZG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" RefId1="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                              <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                              <Name>SM_WORKCENTER</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                          <Folder TypeDesc="ExecutableLibrary" Type="LIBEXECROOT" Id="{XO{VzLc7kQqvGlOSdyjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Executable Library</Desc>
+                                             <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL3obm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Executables Folder</Desc>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL4obm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL6obm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5Ibm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvKEFBumocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvKEFBuoIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>SM54</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8Io2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroBOXX8Ko2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8JI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroBOXX8LI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SM37</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL6Ibm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7obm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5obm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvJkYjL8Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SU01</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvLOjbSbonG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>STRUST</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQXoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYIZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroFyRXQaIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                     <Name>SM_WORKCENTER</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                 </Folder>
+                              </Folder>
+                              <Deleted>
+                                 <Folder Id="051MWq{r7jQrvvxp4HNF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HNl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HOF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HOl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HPF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HPl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HQF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HQl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HRF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HRl{0" ModifiedOn="20170110135913 "/>
+                              </Deleted>
+                              <Descoped>
+                                 <Folder Id="051MWq{r7jQrvvxp4HSF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HSl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HTF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HTl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HUF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HUl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HVF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HVl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HWF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HWl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HXF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HXl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HYF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HYl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HZF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HZl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HaF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hal{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HbF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hbl{0" ModifiedOn="20170110135913 "/>
+                              </Descoped>
+                           </View>
+                           <View Id="051MWq{r7kQqvL0jPJXIf0">
+                              <Name>CosView2</Name>
+                              <Folder TypeDesc="Solution" Type="ROOT" Id="{XO{VzLc7kQqvGkYB4sDzW" ModifiedOn="20170110135913 ">
+                                 <Desc>Solution</Desc>
+                                 <Folder TypeDesc="Solution" Type="ROOTGRP" Id="{XO{VzLc7kQqvGlOSdvjzW" ModifiedOn="20170110135913 " Visible="false">
+                                    <Desc>Solution</Desc>
+                                    <Folder TypeDesc="BusinessProcesses" Type="E2EROOT" Id="{XO{VzLc7kQqvGlOSdwDzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Business Processes</Desc>
+                                       <Folder TypeDesc="Folders" Type="FOLDERGRP" Id="051MWq{r7kQqvJStLZIIXm" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Folders</Desc>
+                                          <Folder TypeDesc="Scenario" Type="SCN" Id="051MWq{r7kQqvJStLZJoXm" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                             <Desc>Scenario1</Desc>
+                                             <Folder TypeDesc="Processes" Type="PROCGRP" Id="051MWq{r7kQqvJXFW85IY0" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Processes</Desc>
+                                                <Folder TypeDesc="Process" Type="PROC" Id="051MWq{r7kQqvJXFW86oY0" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                                   <Desc>Process1</Desc>
+                                                   <Folder TypeDesc="ProcessSteps" Type="PROCSTEPGRP" Id="051MWq{r7kQqvJkwjFOIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps</Desc>
+                                                      <Folder TypeDesc="ProcessStepRef" Type="REF_PROCSTEP" Id="051MWq{r7kQqvJkwjFPobm" ModifiedOn="20170110135913 ">
+                                                         <Desc>User Maintenance</Desc>
+                                                         <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvJkYjLGobm" RefId1="051MWq{r7kQqvJkwjFPobm" Visible="false" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                            <Desc>User Maintenance</Desc>
+                                                            <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvJkYjLHIbm" RefId1="051MWq{r7kQqvJkwjFPobm" ModifiedOn="20170110135913 ">
+                                                               <Desc>Executables</Desc>
+                                                               <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjLHobm" RefId1="051MWq{r7kQqvJkwjFPobm" Visible="false" ModifiedOn="20170110135913 ">
+                                                                  <Desc>User Maintenance</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" RefId1="051MWq{r7kQqvJkwjFPobm" RefId2="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                     <Desc>User Maintenance</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>SU01</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                    <Folder TypeDesc="Libraries" Type="LIBROOT" Id="{XO{VzLc7kQqvGlOSdwjzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Libraries</Desc>
+                                       <Folder TypeDesc="Libraries" Type="LIBROOTGRP" Id="{XO{VzLc7kQqvGlOSdxDzW" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Libraries</Desc>
+                                          <Folder TypeDesc="ProcessStepLibrary" Type="LIBPROCSTEPROOT" Id="{XO{VzLc7kQqvGlOSdxjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Process Step Library</Desc>
+                                             <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLCIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Process Steps Folder</Desc>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLCobm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLDIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLDobm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLEIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLEobm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLFIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLFobm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLGIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvJkYjLGobm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvJkYjLHIbm" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>User Maintenance</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" RefId1="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>User Maintenance</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SU01</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvLOjbSjInG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvLOjbSjonG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Trust Manager</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" RefId1="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Trust Manager</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>STRUST</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvKEFBuuocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvKEFBuvIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvKEFBuvocm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvKEFBuwIcm" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>TXCOM Maintenance</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" RefId1="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>TXCOM Maintenance</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>SM54</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81beI2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81beo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81bfI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81bfo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroBP81bgI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroBP81bgo2m" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>Overview of job selection</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" RefId1="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>Overview of job selection</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SM37</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQfoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQgIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQgoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQhIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQhoZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQiIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroFyRXQioZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroFyRXQjIZG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" RefId1="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                              <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                              <Name>SM_WORKCENTER</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                          <Folder TypeDesc="ExecutableLibrary" Type="LIBEXECROOT" Id="{XO{VzLc7kQqvGlOSdyjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Executable Library</Desc>
+                                             <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL3obm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Executables Folder</Desc>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL4obm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL6obm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5Ibm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvKEFBumocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvKEFBuoIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>SM54</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8Io2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroBOXX8Ko2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8JI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroBOXX8LI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SM37</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL6Ibm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7obm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5obm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvJkYjL8Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SU01</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvLOjbSbonG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>STRUST</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQXoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYIZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroFyRXQaIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                     <Name>SM_WORKCENTER</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                 </Folder>
+                              </Folder>
+                              <Deleted>
+                                 <Folder Id="051MWq{r7jQrvvxp4HcF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hcl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HdF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hdl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HeF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hel{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HfF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hfl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HgF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hgl{0" ModifiedOn="20170110135913 "/>
+                              </Deleted>
+                              <Descoped>
+                                 <Folder Id="051MWq{r7jQrvvxp4HhF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hhl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HiF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hil{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HjF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hjl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HkF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hkl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HlF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hll{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HmF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hml{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HnF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hnl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HoF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hol{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HpF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hpl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HqF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hql{0" ModifiedOn="20170110135913 "/>
+                              </Descoped>
+                           </View>
+                           <View Id="051MWsLH7jQroF}vl57oZG">
+                              <Name>CosView3</Name>
+                              <Folder TypeDesc="Solution" Type="ROOT" Id="{XO{VzLc7kQqvGkYB4sDzW" ModifiedOn="20170110135913 ">
+                                 <Desc>Solution</Desc>
+                                 <Folder TypeDesc="Solution" Type="ROOTGRP" Id="{XO{VzLc7kQqvGlOSdvjzW" ModifiedOn="20170110135913 " Visible="false">
+                                    <Desc>Solution</Desc>
+                                    <Folder TypeDesc="BusinessProcesses" Type="E2EROOT" Id="{XO{VzLc7kQqvGlOSdwDzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Business Processes</Desc>
+                                       <Folder TypeDesc="Folders" Type="FOLDERGRP" Id="051MWq{r7kQqvJStLZIIXm" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Folders</Desc>
+                                          <Folder TypeDesc="Scenario" Type="SCN" Id="051MWq{r7kQqvJStLZJoXm" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                             <Desc>Scenario1</Desc>
+                                             <Folder TypeDesc="Processes" Type="PROCGRP" Id="051MWq{r7kQqvJXFW85IY0" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Processes</Desc>
+                                                <Folder TypeDesc="Process" Type="PROC" Id="051MWsLH7jQroB}Kcs1I4m" ModifiedOn="20170110135913 " TCAssignmentType="Additive">
+                                                   <Desc>Process 2</Desc>
+                                                   <Folder TypeDesc="ProcessSteps" Type="PROCSTEPGRP" Id="051MWsLH7jQroFyqS08oZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps</Desc>
+                                                      <Folder TypeDesc="ProcessStepRef" Type="REF_PROCSTEP" Id="051MWsLH7jQroFyqS0AIZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>Solution Manager: Work Centers URL</Desc>
+                                                         <Keywords>
+                                                            <Keyword>
+                                                               <KeywordID>COUNTRY</KeywordID>
+                                                               <KeywordName>AD</KeywordName>
+                                                            </Keyword>
+                                                            <Keyword>
+                                                               <KeywordID>TEAMMEMBERID</KeywordID>
+                                                               <KeywordName>0000002907</KeywordName>
+                                                            </Keyword>
+                                                         </Keywords>
+                                                         <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroFyRXQioZG" RefId1="051MWsLH7jQroFyqS0AIZG" Visible="false" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                            <Desc>Solution Manager: Work Centers URL</Desc>
+                                                            <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroFyRXQjIZG" RefId1="051MWsLH7jQroFyqS0AIZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>Executables</Desc>
+                                                               <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQjoZG" RefId1="051MWsLH7jQroFyqS0AIZG" Visible="false" ModifiedOn="20170110135913 ">
+                                                                  <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" RefId1="051MWsLH7jQroFyqS0AIZG" RefId2="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                     <Name>SM_WORKCENTER</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                         <Folder TypeDesc="Documentation" Type="DOCUGRP" Id="{XO{VzLc7jQrvj5gJwgKjG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Documentation</Desc>
+                                                            <Item TypeDesc="DocumentURL" Type="KWWEBLINK" Id="{XO{VzLc7jQrvlyVmmOKlW" ModifiedOn="20170110135913 " URL="http://bing.com">
+                                                               <Desc>Document URL</Desc>
+                                                               <Keywords>
+                                                                  <Keyword>
+                                                                     <KeywordID>TEAMMEMBERID</KeywordID>
+                                                                     <KeywordName>0000002907</KeywordName>
+                                                                  </Keyword>
+                                                               </Keywords>
+                                                               <Name>Document URL</Name>
+                                                            </Item>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                    <Folder TypeDesc="Libraries" Type="LIBROOT" Id="{XO{VzLc7kQqvGlOSdwjzW" ModifiedOn="20170110135913 ">
+                                       <Desc>Libraries</Desc>
+                                       <Folder TypeDesc="Libraries" Type="LIBROOTGRP" Id="{XO{VzLc7kQqvGlOSdxDzW" ModifiedOn="20170110135913 " Visible="false">
+                                          <Desc>Libraries</Desc>
+                                          <Folder TypeDesc="ProcessStepLibrary" Type="LIBPROCSTEPROOT" Id="{XO{VzLc7kQqvGlOSdxjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Process Step Library</Desc>
+                                             <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLCIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Process Steps Folder</Desc>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLCobm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLDIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLDobm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLEIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLEobm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLFIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvJkYjLFobm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvJkYjLGIbm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvJkYjLGobm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvJkYjLHIbm" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>User Maintenance</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" RefId1="051MWq{r7kQqvJkYjLHobm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>User Maintenance</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SU01</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvLOjbSjInG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvLOjbSjonG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Trust Manager</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" RefId1="051MWq{r7kQqvLOjbSkInG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Trust Manager</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>STRUST</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWq{r7kQqvKEFBuuocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWq{r7kQqvKEFBuvIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWq{r7kQqvKEFBuvocm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWq{r7kQqvKEFBuwIcm" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>TXCOM Maintenance</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" RefId1="051MWq{r7kQqvKEFBuwocm" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>TXCOM Maintenance</Desc>
+                                                                              <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                              <Name>SM54</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81beI2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81beo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroBP81bfI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroBP81bfo2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Process Steps Folder</Desc>
+                                                                        <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroBP81bgI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroBP81bgo2m" ModifiedOn="20170110135913 ">
+                                                                              <Desc>Executables</Desc>
+                                                                              <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                                 <Desc>Overview of job selection</Desc>
+                                                                                 <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" RefId1="051MWsLH7jQroBP81bhI2m" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                                    <Desc>Overview of job selection</Desc>
+                                                                                    <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                                    <Name>SM37</Name>
+                                                                                 </Item>
+                                                                              </Folder>
+                                                                           </Folder>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQfoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQgIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Process Steps Folder</Desc>
+                                                      <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQgoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQhIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Process Steps Folder</Desc>
+                                                            <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="051MWsLH7jQroFyRXQhoZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="051MWsLH7jQroFyRXQiIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Process Steps Folder</Desc>
+                                                                  <Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="051MWsLH7jQroFyRXQioZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="EXECGRP" Id="051MWsLH7jQroFyRXQjIZG" ModifiedOn="20170110135913 ">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                           <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                           <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" RefId1="051MWsLH7jQroFyRXQjoZG" ModifiedOn="20170110135913 " IsReferenced="true">
+                                                                              <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                              <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                              <Name>SM_WORKCENTER</Name>
+                                                                           </Item>
+                                                                        </Folder>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                          <Folder TypeDesc="ExecutableLibrary" Type="LIBEXECROOT" Id="{XO{VzLc7kQqvGlOSdyjzW" ModifiedOn="20170110135913 ">
+                                             <Desc>Executable Library</Desc>
+                                             <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL3obm" ModifiedOn="20170110135913 " Visible="false">
+                                                <Desc>Executables Folder</Desc>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL4obm" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG004</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL6obm" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5Ibm" ModifiedOn="20170110135913 ">
+                                                         <Desc>BC</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvKEFBumocm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CST</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvKEFBuoIcm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvKEFBulIcm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>TXCOM Maintenance</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>SM54</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8Io2m" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-CCM</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroBOXX8Ko2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroBOXX8JI2m" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-CCM-BTC</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroBOXX8LI2m" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroBOXX8HI2m" ModifiedOn="20170110135913 ">
+                                                                           <Desc>Overview of job selection</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SM37</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                            </Folder>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL6Ibm" ModifiedOn="20170110135913 ">
+                                                               <Desc>BC-SEC</Desc>
+                                                               <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWq{r7kQqvJkYjL7obm" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables Folder</Desc>
+                                                                  <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWq{r7kQqvJkYjL5obm" ModifiedOn="20170110135913 ">
+                                                                     <Desc>BC-SEC-USR</Desc>
+                                                                     <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvJkYjL8Ibm" ModifiedOn="20170110135913 " Visible="false">
+                                                                        <Desc>Executables</Desc>
+                                                                        <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvJkYjL4Ibm" ModifiedOn="20170110135913 ">
+                                                                           <Desc>User Maintenance</Desc>
+                                                                           <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                           <Name>SU01</Name>
+                                                                        </Item>
+                                                                     </Folder>
+                                                                  </Folder>
+                                                               </Folder>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWq{r7kQqvLOjbSbonG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWq{r7kQqvLOjbSYonG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Trust Manager</Desc>
+                                                                     <LCG>7ILD476VMYPONNHFCVVQLHQN7U</LCG>
+                                                                     <Name>STRUST</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                                <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYoZG" ModifiedOn="20170110135913 ">
+                                                   <Desc>LCG005</Desc>
+                                                   <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZoZG" ModifiedOn="20170110135913 " Visible="false">
+                                                      <Desc>Executables Folder</Desc>
+                                                      <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQXoZG" ModifiedOn="20170110135913 ">
+                                                         <Desc>SV</Desc>
+                                                         <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="051MWsLH7jQroFyRXQZIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                            <Desc>Executables Folder</Desc>
+                                                            <Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="051MWsLH7jQroFyRXQYIZG" ModifiedOn="20170110135913 ">
+                                                               <Desc>SV-SMG</Desc>
+                                                               <Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="051MWsLH7jQroFyRXQaIZG" ModifiedOn="20170110135913 " Visible="false">
+                                                                  <Desc>Executables</Desc>
+                                                                  <Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="051MWsLH7jQroFyRXQXIZG" ModifiedOn="20170110135913 ">
+                                                                     <Desc>Solution Manager: Work Centers URL</Desc>
+                                                                     <LCG>ABIFNA3FKEPNNNOIXHXYPM2SCA</LCG>
+                                                                     <Name>SM_WORKCENTER</Name>
+                                                                  </Item>
+                                                               </Folder>
+                                                            </Folder>
+                                                         </Folder>
+                                                      </Folder>
+                                                   </Folder>
+                                                </Folder>
+                                             </Folder>
+                                          </Folder>
+                                       </Folder>
+                                    </Folder>
+                                 </Folder>
+                              </Folder>
+                              <Deleted>
+                                 <Folder Id="051MWq{r7jQrvvxp4HrF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hrl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HsF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hsl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HtF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Htl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HuF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hul{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HvF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hvl{0" ModifiedOn="20170110135913 "/>
+                              </Deleted>
+                              <Descoped>
+                                 <Folder Id="051MWq{r7jQrvvxp4HwF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hwl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HxF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hxl{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4HyF{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4Hyl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4HzF{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4Hzl{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4H{F{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4H{l{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4H}F{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4H}l{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4I0F{0" ModifiedOn="20170110135913 "/>
+                                 <Item Id="051MWq{r7jQrvvxp4I0l{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I1F{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I1l{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I2F{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I2l{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I3F{0" ModifiedOn="20170110135913 "/>
+                                 <Folder Id="051MWq{r7jQrvvxp4I3l{0" ModifiedOn="20170110135913 "/>
+                              </Descoped>
+                           </View>
+                        </Views>
+                     </Branch>
+                  </SolutionLandscape>
+               </BusinessBlueprint>
+            </Blueprint>
+         </AgsSmPushBlueprintRequest>
+      </urn:AgsSmPushBlueprint>
+   </soapenv:Body>
+</soapenv:Envelope>

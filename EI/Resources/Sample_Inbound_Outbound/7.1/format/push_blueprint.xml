@@ -1,0 +1,141 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:blu="http://blueprint.sm.service.ei.erp.hp.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <blu:pushBPrequest>
+         <blueprint>
+            <?xml version="1.0" encoding="utf-8"?>
+            <Blueprint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OldnodeId="0C4294427625B113E10000000A114AB6" nodeId="005056871E661ED7A4BCAD9C3B8CA723" xsi:noNamespaceSchemaLocation=".\Blueprint.xsd">
+               <Name>build project configuration for the first time by cindy</Name>
+               <BusinessScenarios OldnodeId="" nodeId="005056871E661ED7A4BCAD9C3B8D0723">
+                  <Name>Business Scenarios</Name>
+                  <BusinessScenario OldnodeId="0C4294427625B113E10000000A114AB6" nodeId="005056871E661ED7A4BF1936C44A4723">
+                     <Name>Decommissioning</Name>
+                     <GeneralDocumentTab>
+                        <Document>
+                           <Name>Decommissioning</Name>
+                           <DocumentType>Scenario Documentation</DocumentType>
+                           <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=A23B9C42E4560B22E10000000A114AB6%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                        </Document>
+                     </GeneralDocumentTab>
+                     <BusinessProcesses OldnodeId="144294427625B113E10000000A114AB6" nodeId="005056871E661ED7A4BF1936C44BA723">
+                        <Name>Business Processes</Name>
+                        <BusinessProcess OldnodeId="B2231B41CD037001E10000000A114AB6" nodeId="005056871E661ED7A4BF19F7AA28A723">
+                           <Name>Asset Scrapping</Name>
+                           <GeneralDocumentTab>
+                              <Document>
+                                 <Name>Asset Scrapping</Name>
+                                 <DocumentType>Business Process Procedure</DocumentType>
+                                 <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=DAD977417FE69D6FE10000000A114AB6%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                              </Document>
+                              <Document>
+                                 <Name>Recording Time and Labor Data</Name>
+                                 <DocumentType>Process documentatn</DocumentType>
+                                 <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=A41F2343B5D0E33DE10000000A114AB6%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                              </Document>
+                           </GeneralDocumentTab>
+                           <BusinessProcessStep OldnodeId="81CB323FFC81B222E10000000A114AB6" nodeId="005056871E661ED7A4BF19F7AA2F8723">
+                              <Name>Confirm time</Name>
+                              <ProjectDocumentTab>
+                                 <Document>
+                                    <Name>Document1</Name>
+                                    <DocumentType>Accelerator</DocumentType>
+                                    <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=005056871E661ED7A4BF4DBB8BEC2723%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                                 </Document>
+                              </ProjectDocumentTab>
+                              <GeneralDocumentTab>
+                                 <Document>
+                                    <Name>Recording Working Times</Name>
+                                    <DocumentType>Additional Documentation</DocumentType>
+                                    <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=1A862343CED1E13DE10000000A114AB6%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                                 </Document>
+                              </GeneralDocumentTab>
+                              <RequirementTab>
+                                 <Requirement>
+                                    <SM_reqId>SOLARGEN  005056871E661ED7A4BF4DBB8BEC2723</SM_reqId>
+                                    <Name>Document1</Name>
+                                    <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=005056871E661ED7A4BF4DBB8BEC2723%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                                 </Requirement>
+                                 <Requirement>
+                                    <SM_reqId>SOLARGEN  1A862343CED1E13DE10000000A114AB6</SM_reqId>
+                                    <Name>Recording Working Times</Name>
+                                    <URL>http://LABM3FTRND12.hpeswlab.net:08000/sap/bc/solman/SolmanDocuments/001?_CLASS=SOLARGEN%26_LOIO=1A862343CED1E13DE10000000A114AB6%26LANGUAGE=EN%26RELEASE=620%26IWB_INDUSTRY=/KWCUST/%26TMP_IWB_TRY_OTHER_IND=X%26TMP_IWB_TRY_OTHER_LANG=X%26</URL>
+                                 </Requirement>
+                              </RequirementTab>
+                              <Keywords>
+                                 <Keyword>
+                                    <KeywordID>NOAM_KEY</KeywordID>
+                                    <KeywordName>TEST</KeywordName>
+                                 </Keyword>
+                              </Keywords>
+                              <RelatedSAPobjects>
+                                 <Object>
+                                    <SAPObjectId>IW41</SAPObjectId>
+                                    <Name>Enter PM Order Confirmation</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW42</SAPObjectId>
+                                    <Name>Overall Completion Confirmation</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW43</SAPObjectId>
+                                    <Name>Display PM Order Confirmation</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW44</SAPObjectId>
+                                    <Name>PM Order Collective Confirmation</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW45</SAPObjectId>
+                                    <Name>Cancel PM Order Confirmation</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW46</SAPObjectId>
+                                    <Name>Postprocessing of PDC Error Records</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW47</SAPObjectId>
+                                    <Name>Confirmation List</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                                 <Object>
+                                    <SAPObjectId>IW48</SAPObjectId>
+                                    <Name>Confirmation using operation list</Name>
+                                    <Type>Transaction</Type>
+                                    <LogicalComponent>SAP R/3</LogicalComponent>
+                                 </Object>
+                              </RelatedSAPobjects>
+                           </BusinessProcessStep>
+                        </BusinessProcess>
+                     </BusinessProcesses>
+                  </BusinessScenario>
+               </BusinessScenarios>
+            </Blueprint>
+         </blueprint>
+         <qcContextInfo>
+            <domainName>DEMO</domainName>
+            <projectName>SM_Project_Try1</projectName>
+         </qcContextInfo>
+         <qcLoginInfo>
+            <pw>qa</pw>
+            <userName>qa</userName>
+         </qcLoginInfo>
+         <smProjectInfo>
+            <smProjectId>CINDYPRO2</smProjectId>
+            <smSystemId/>
+         </smProjectInfo>
+      </blu:pushBPrequest>
+   </soapenv:Body>
+</soapenv:Envelope>

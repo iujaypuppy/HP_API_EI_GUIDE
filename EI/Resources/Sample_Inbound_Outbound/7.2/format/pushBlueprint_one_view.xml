@@ -1,0 +1,314 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:AgsSmPushBlueprint>
+         <!--Optional:-->
+         <AgsSmPushBlueprintRequest>
+            <!--Optional:-->
+            <LoginInfo>
+               <Username>qa</Username>
+               <Password>qa</Password>
+            </LoginInfo>
+            <ProjectInfo>
+               <ProjectId>SM_Project_Try2</ProjectId>
+               <ProjectAttr>Demo</ProjectAttr>
+            </ProjectInfo>
+            <AssociationId>0039wgEk7jIlciVjkCl1C1</AssociationId>
+        <Blueprint><?xml version="1.0" encoding="utf-16"?>
+					<BusinessBlueprint>
+						<Association Id="0039wgEk7jIlciVjkCl1C1"/>
+						<SolutionManager SID="SLM" Client="001"/>
+						<SolutionManagerUser Id="QA01"/>
+						<SolutionLandscape Id="A99AEPBs7kU6eQqjg1RkrW">
+							<Name>TECH011</Name>
+							<Desc>Test Solution 11</Desc>
+							<Branch Id="A99AEPBs7kU6eQqjg1ZErW">
+								<Name>MAINTENANCE</Name>
+								<Desc>Maintenance</Desc>
+								<ParentBranch Id="A99AEPBs7kU6eQqjg1RkrW">
+									<Name>PRODUCTION</Name>
+								</ParentBranch>
+								<Language>EN</Language>
+								<SystemLandscape>
+									<SystemRoles>
+										<SystemRole Id="C" Desc="Development System" IsDefault="true">
+											<System Id="SLM" Client="001">
+												<Desc>SLM on selsolman01</Desc>
+											</System>
+										</SystemRole>
+										<SystemRole Id="P" Desc="Production System">
+											<System Id="S72" Client="001">
+												<Desc>S72 on mydwbld0145g</Desc>
+											</System>
+										</SystemRole>
+									</SystemRoles>
+									<LogicalComponentGroups>
+										<LogicalComponentGroup>
+											<Name>FCJEUOMS6YPOPBVBV2PYDZLO2Y</Name>
+											<Desc>LCG11</Desc>
+											<LogicalComponent Id="2 ">
+												<SystemRole Id="C" Desc="Development System" IsDefault="true">
+													<System Id="SLM" Client="001">
+														<Desc>SLM on selsolman01</Desc>
+													</System>
+												</SystemRole>
+												<SystemRole Id="P" Desc="Production System">
+													<System Id="S72" Client="001">
+														<Desc>S72 on mydwbld0145g</Desc>
+													</System>
+												</SystemRole>
+											</LogicalComponent>
+										</LogicalComponentGroup>
+									</LogicalComponentGroups>
+								</SystemLandscape>
+								<NodeTypes>
+									<StructureNodes>
+										<StructureNode>BUILDINGBLOCK</StructureNode>
+										<StructureNode>COMPOSITE_IFACE</StructureNode>
+										<StructureNode>CONFIGUNIT</StructureNode>
+										<StructureNode>CONFIGUNITGRP</StructureNode>
+										<StructureNode>DOCUGRP</StructureNode>
+										<StructureNode>E2EROOT</StructureNode>
+										<StructureNode>EXECGRP</StructureNode>
+										<StructureNode>FOLDER</StructureNode>
+										<StructureNode>FOLDERGRP</StructureNode>
+										<StructureNode>IFACE</StructureNode>
+										<StructureNode>IFSTEP</StructureNode>
+										<StructureNode>IFSTEPGRP</StructureNode>
+										<StructureNode>LIBCONFIGFOLDER</StructureNode>
+										<StructureNode>LIBCONFIGFOLDERGRP</StructureNode>
+										<StructureNode>LIBCONFIGROOT</StructureNode>
+										<StructureNode>LIBEXECACH</StructureNode>
+										<StructureNode>LIBEXECACHGRP</StructureNode>
+										<StructureNode>LIBEXECGRP</StructureNode>
+										<StructureNode>LIBEXECROOT</StructureNode>
+										<StructureNode>LIBIFFOLDER</StructureNode>
+										<StructureNode>LIBIFFOLDERGRP</StructureNode>
+										<StructureNode>LIBIFROOT</StructureNode>
+										<StructureNode>LIBKPIFOLDER</StructureNode>
+										<StructureNode>LIBKPIFOLDERGRP</StructureNode>
+										<StructureNode>LIBKPIROOT</StructureNode>
+										<StructureNode>LIBMONFOLDER</StructureNode>
+										<StructureNode>LIBMONFOLDERGRP</StructureNode>
+										<StructureNode>LIBMONROOT</StructureNode>
+										<StructureNode>LIBPROCSTEPACHFOLDER</StructureNode>
+										<StructureNode>LIBPROCSTEPACHFOLDERGRP</StructureNode>
+										<StructureNode>LIBPROCSTEPROOT</StructureNode>
+										<StructureNode>LIBROOT</StructureNode>
+										<StructureNode>LIBROOTGRP</StructureNode>
+										<StructureNode>LIBTECHACH</StructureNode>
+										<StructureNode>LIBTECHACHGRP</StructureNode>
+										<StructureNode>LIBTECHROOT</StructureNode>
+										<StructureNode>MADA</StructureNode>
+										<StructureNode>ORGUNT</StructureNode>
+										<StructureNode>PROC</StructureNode>
+										<StructureNode>PROCGRP</StructureNode>
+										<StructureNode>PROCSTEP</StructureNode>
+										<StructureNode>PROCSTEPGRP</StructureNode>
+										<StructureNode>REF_COMPOSITEIFACE</StructureNode>
+										<StructureNode>REF_CRMBSPFRAMELOGCOMP</StructureNode>
+										<StructureNode>REF_CRMWEBCLIENTLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECBSPAPPLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECFIORILOGCOMP</StructureNode>
+										<StructureNode>REF_EXECGENLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECPROGLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECTRANLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECWDYAPPCONFLOGCOMP</StructureNode>
+										<StructureNode>REF_EXECWDYAPPLOGCOMP</StructureNode>
+										<StructureNode>REF_IFACE</StructureNode>
+										<StructureNode>REF_PROCSTEP</StructureNode>
+										<StructureNode>REF_SAPSTJOBDOCU</StructureNode>
+										<StructureNode>REF_WDYJAVASOLMANLOGCOMP</StructureNode>
+										<StructureNode>REF_WEBLINKLOGCOMP</StructureNode>
+										<StructureNode>ROOT</StructureNode>
+										<StructureNode>ROOTGRP</StructureNode>
+										<StructureNode>SCN</StructureNode>
+										<StructureNode>TESTGRP</StructureNode>
+									</StructureNodes>
+									<ExecutableNodes>
+										<ExecutableNode>CRM_BSP_FRAMELOGCOMP</ExecutableNode>
+										<ExecutableNode>CRM_WEBCLIENTLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECBSPAPPLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECFIORILOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECGENLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECPROGLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECTRANLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECWDYAPPCONFLOGCOMP</ExecutableNode>
+										<ExecutableNode>EXECWDYAPPLOGCOMP</ExecutableNode>
+										<ExecutableNode>SAP_ST_JOB_DOCU</ExecutableNode>
+										<ExecutableNode>WDY_JAVA_SOLMANLOGCOMP</ExecutableNode>
+										<ExecutableNode>WEBLINKLOGCOMP</ExecutableNode>
+									</ExecutableNodes>
+									<DocumentNodes>
+										<DocumentNode>BESTPRACTICEDOCU</DocumentNode>
+										<DocumentNode>KWOBJ</DocumentNode>
+										<DocumentNode>KWWEBLINK</DocumentNode>
+									</DocumentNodes>
+								</NodeTypes>
+								<Views>
+									<View Id="A99AEPBs7kU8Yx6kNs52VG">
+										<Name>V1</Name>
+										<Folder TypeDesc="Solution" Type="ROOT" Id="A99AEPBs7kU6eQqjg1RkrW" ModifiedOn="20170413152830 ">
+											<Desc>Solution</Desc>
+											<Folder TypeDesc="Solution" Type="ROOTGRP" Id="A99AEPBs7kU6eQqjg1TErW" ModifiedOn="20170413152830 " Visible="false">
+												<Desc>Solution</Desc>
+												<Folder TypeDesc="BusinessProcesses" Type="E2EROOT" Id="A99AEPBs7kU6eQqjg1TkrW" ModifiedOn="20170413152830 ">
+													<Desc>Business Processes3</Desc>
+													<Folder TypeDesc="Folders" Type="FOLDERGRP" Id="A99AEPBs7kU6eRGUcrDErW" ModifiedOn="20170413152830 " Visible="false">
+														<Desc>Folders</Desc>
+														<Folder TypeDesc="Folder" Type="FOLDER" Id="A99AEPBs7kU6epgw0Q6krW" ModifiedOn="20170413152830 ">
+															<Desc>Folder</Desc>
+															<Folder TypeDesc="Folders" Type="FOLDERGRP" Id="A99AEPBs7kU6epn5lcSkrW" ModifiedOn="20170413152830 " Visible="false">
+																<Desc>Folders</Desc>
+																<Folder TypeDesc="Scenario" Type="SCN" Id="A99AEPBs7kU6eRGUcrFErW" ModifiedOn="20170413152830 " TCAssignmentType="Additive">
+																	<Desc>Scenario</Desc>
+																	<Folder TypeDesc="Processes" Type="PROCGRP" Id="A99AEPBs7kU6eRGUcrOErW" ModifiedOn="20170413152830 " Visible="false">
+																		<Desc>Processes</Desc>
+																		<Folder TypeDesc="Process" Type="PROC" Id="A99AEPBs7kU6eRGUcrPkrW" ModifiedOn="20170413152830 " TCAssignmentType="Additive">
+																			<Desc>Process</Desc>
+																			<Folder TypeDesc="ProcessSteps" Type="PROCSTEPGRP" Id="A99AEPBs7kU6eRTHA8ekrW" ModifiedOn="20170413152830 " Visible="false">
+																				<Desc>Process Steps</Desc>
+																				<Folder TypeDesc="ProcessStepRef" Type="REF_PROCSTEP" Id="A99AEPBs7kU6eRTHA8gErW" ModifiedOn="20170413152830 " TCAssignmentType="Additive">
+																					<Desc>Trust Manager</Desc>
+																					<Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="A99AEPBs7kU6eRTHA8bkrW" RefId1="A99AEPBs7kU6eRTHA8gErW" Visible="false" ModifiedOn="20170413152830 " IsReferenced="true">
+																						<Desc>Trust Manager</Desc>
+																						<Folder TypeDesc="Executables" Type="EXECGRP" Id="A99AEPBs7kU6eRTHA8cErW" RefId1="A99AEPBs7kU6eRTHA8gErW" ModifiedOn="20170413152830 ">
+																							<Desc>Executables</Desc>
+																							<Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="A99AEPBs7kU6eRTHA8ckrW" RefId1="A99AEPBs7kU6eRTHA8gErW" Visible="false" ModifiedOn="20170413152830 ">
+																								<Desc>Trust Manager</Desc>
+																								<Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="A99AEPBs7kU6eRTHA8RErW" RefId1="A99AEPBs7kU6eRTHA8gErW" RefId2="A99AEPBs7kU6eRTHA8ckrW" ModifiedOn="20170413152830 " IsReferenced="true">
+																									<Desc>Trust Manager</Desc>
+																									<LCG>FCJEUOMS6YPOPBVBV2PYDZLO2Y</LCG>
+																									<Name>STRUST</Name>
+																								</Item>
+																							</Folder>
+																						</Folder>
+																					</Folder>
+																				</Folder>
+																			</Folder>
+																		</Folder>
+																	</Folder>
+																</Folder>
+															</Folder>
+														</Folder>
+													</Folder>
+												</Folder>
+												<Folder TypeDesc="Libraries" Type="LIBROOT" Id="A99AEPBs7kU6eQqjg1UErW" ModifiedOn="20170413152830 ">
+													<Desc>Libraries</Desc>
+													<Folder TypeDesc="Libraries" Type="LIBROOTGRP" Id="A99AEPBs7kU6eQqjg1UkrW" ModifiedOn="20170413152830 " Visible="false">
+														<Desc>Libraries</Desc>
+														<Folder TypeDesc="ProcessStepLibrary" Type="LIBPROCSTEPROOT" Id="A99AEPBs7kU6eQqjg1VErW" ModifiedOn="20170413152830 ">
+															<Desc>Process Step Library</Desc>
+															<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="A99AEPBs7kU6eRTHA8YErW" ModifiedOn="20170413152830 " Visible="false">
+																<Desc>Process Steps Folder</Desc>
+																<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="A99AEPBs7kU6eRTHA8YkrW" ModifiedOn="20170413152830 ">
+																	<Desc>LCG11</Desc>
+																	<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="A99AEPBs7kU6eRTHA8ZErW" ModifiedOn="20170413152830 " Visible="false">
+																		<Desc>Process Steps Folder</Desc>
+																		<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="A99AEPBs7kU6eRTHA8ZkrW" ModifiedOn="20170413152830 ">
+																			<Desc>BC</Desc>
+																			<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="A99AEPBs7kU6eRTHA8aErW" ModifiedOn="20170413152830 " Visible="false">
+																				<Desc>Process Steps Folder</Desc>
+																				<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDER" Id="A99AEPBs7kU6eRTHA8akrW" ModifiedOn="20170413152830 ">
+																					<Desc>BC-SEC</Desc>
+																					<Folder TypeDesc="ProcessStepsFolder" Type="LIBPROCSTEPACHFOLDERGRP" Id="A99AEPBs7kU6eRTHA8bErW" ModifiedOn="20170413152830 " Visible="false">
+																						<Desc>Process Steps Folder</Desc>
+																						<Folder TypeDesc="ProcessStepOrig" Type="PROCSTEP" Id="A99AEPBs7kU6eRTHA8bkrW" ModifiedOn="20170413152830 ">
+																							<Desc>Trust Manager</Desc>
+																							<Folder TypeDesc="Executables" Type="EXECGRP" Id="A99AEPBs7kU6eRTHA8cErW" ModifiedOn="20170413152830 ">
+																								<Desc>Executables</Desc>
+																								<Folder TypeDesc="TransactionExecRef" Type="REF_EXECTRANLOGCOMP" Id="A99AEPBs7kU6eRTHA8ckrW" ModifiedOn="20170413152830 " Visible="false">
+																									<Desc>Trust Manager</Desc>
+																									<Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="A99AEPBs7kU6eRTHA8RErW" RefId1="A99AEPBs7kU6eRTHA8ckrW" ModifiedOn="20170413152830 " IsReferenced="true">
+																										<Desc>Trust Manager</Desc>
+																										<LCG>FCJEUOMS6YPOPBVBV2PYDZLO2Y</LCG>
+																										<Name>STRUST</Name>
+																									</Item>
+																								</Folder>
+																							</Folder>
+																						</Folder>
+																					</Folder>
+																				</Folder>
+																			</Folder>
+																		</Folder>
+																	</Folder>
+																</Folder>
+															</Folder>
+														</Folder>
+														<Folder TypeDesc="ExecutableLibrary" Type="LIBEXECROOT" Id="A99AEPBs7kU6eQqjg1WErW" ModifiedOn="20170413152830 ">
+															<Desc>Executable Library</Desc>
+															<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="A99AEPBs7kU6eRTHA8QkrW" ModifiedOn="20170413152830 " Visible="false">
+																<Desc>Executables Folder</Desc>
+																<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="A99AEPBs7kU6eRTHA8RkrW" ModifiedOn="20170413152830 ">
+																	<Desc>LCG11</Desc>
+																	<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="A99AEPBs7kU6eRTHA8TErW" ModifiedOn="20170413152830 " Visible="false">
+																		<Desc>Executables Folder</Desc>
+																		<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="A99AEPBs7kU6eRTHA8SErW" ModifiedOn="20170413152830 ">
+																			<Desc>BC</Desc>
+																			<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACHGRP" Id="A99AEPBs7kU6eRTHA8TkrW" ModifiedOn="20170413152830 " Visible="false">
+																				<Desc>Executables Folder</Desc>
+																				<Folder TypeDesc="ExecutablesFolder" Type="LIBEXECACH" Id="A99AEPBs7kU6eRTHA8SkrW" ModifiedOn="20170413152830 ">
+																					<Desc>BC-SEC</Desc>
+																					<Folder TypeDesc="Executables" Type="LIBEXECGRP" Id="A99AEPBs7kU6eRTHA8UErW" ModifiedOn="20170413152830 " Visible="false">
+																						<Desc>Executables</Desc>
+																						<Item TypeDesc="TransactionExecOrig" Type="EXECTRANLOGCOMP" Id="A99AEPBs7kU6eRTHA8RErW" ModifiedOn="20170413152830 ">
+																							<Desc>Trust Manager</Desc>
+																							<LCG>FCJEUOMS6YPOPBVBV2PYDZLO2Y</LCG>
+																							<Name>STRUST</Name>
+																						</Item>
+																					</Folder>
+																				</Folder>
+																			</Folder>
+																		</Folder>
+																	</Folder>
+																</Folder>
+															</Folder>
+														</Folder>
+													</Folder>
+												</Folder>
+											</Folder>
+										</Folder>
+										<Deleted>
+											<Folder Id="A99AEPBs7kU8Yxh}pc92VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pc9YVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcA2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcAYVG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcB2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcBYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcC2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcCYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcD2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcDYVG" ModifiedOn="20170413152830 "/>
+										</Deleted>
+										<Descoped>
+											<Folder Id="A99AEPBs7kU8Yxh}pcE2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcEYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcF2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcFYVG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcG2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcGYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcH2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcHYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcI2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcIYVG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcJ2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcJYVG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcK2VG" ModifiedOn="20170413152830 "/>
+											<Item Id="A99AEPBs7kU8Yxh}pcKYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcL2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcLYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcM2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcMYVG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcN2VG" ModifiedOn="20170413152830 "/>
+											<Folder Id="A99AEPBs7kU8Yxh}pcNYVG" ModifiedOn="20170413152830 "/>
+										</Descoped>
+									</View>
+								</Views>
+							</Branch>
+						</SolutionLandscape>
+					</BusinessBlueprint>
+				</Blueprint>
+ </AgsSmPushBlueprintRequest>
+      </urn:AgsSmPushBlueprint>
+   </soapenv:Body>
+</soapenv:Envelope>

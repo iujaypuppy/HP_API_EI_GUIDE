@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:blu="http://blueprint.sm.service.ei.erp.hp.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <blu:associationRequest>
+         <qcContextInfo>
+            <domainName>DEMO</domainName>
+            <projectName>SM_Project_Try1</projectName>
+         </qcContextInfo>
+         <qcLoginInfo>
+            <pw>qa</pw>
+            <userName>qa</userName>
+         </qcLoginInfo>
+         <smApplicationInfo>
+            <blueprintWebServiceURL>http://LABM3FTRND12.hpeswlab.net:8000/sap/bc/srt/rfc/sap/ags_wbs_solar_if_mercury/001/ags_wbs_solar_if_mercury/ags_wbs_solar_if_mercury</blueprintWebServiceURL>
+            <description/>
+            <server>LABM3FTRND12</server>
+            <serviceDeskAdditionalWebServiceURL>http://LABM3FTRND12.hpeswlab.net:8000/sap/bc/srt/rfc/sap/ict_service_desk_api_mqc/001/ict_service_desk_api_mqc/ict_service_desk_api_mqc</serviceDeskAdditionalWebServiceURL>
+            <serviceDeskWebServiceURL>http://LABM3FTRND12.hpeswlab.net:8000/sap/bc/srt/rfc/sap/ict_service_desk_api/001/ict_service_desk_api/ict_service_desk_api</serviceDeskWebServiceURL>
+            <systemId>S71</systemId>
+            <systemNumber>001</systemNumber>
+            <triggerPushBlueprintURL>HTTP://LABM3FTRND12.hpeswlab.net:8000/sap/bc/ags_workcenter/ags_work_appln?sap-client=001&amp;CMD=MQC_PUSH_DIALOG&amp;~solmanwrkgui=WEBGUI&amp;PROJECT_ID=CINDYPRO2</triggerPushBlueprintURL>
+         </smApplicationInfo>
+         <smProjectInfo>
+            <smProjectId>CINDYPRO2</smProjectId>
+            <smSystemId>S71</smSystemId>
+         </smProjectInfo>
+      </blu:associationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

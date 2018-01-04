@@ -1,0 +1,168 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soap:mustUnderstand="1">
+			<wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="X509-381E465D3D7E6E38EC14867202307412594">MIICHTCCAYagAwIBAgIENt56uTANBgkqhkiG9w0BAQUFADBTMQswCQYDVQQGEwJJTDEMMAoGA1UECAwDU0FQMQwwCgYDVQQHDANTQVAxDDAKBgNVBAoMA1NBUDEMMAoGA1UECwwDU0FQMQwwCgYDVQQDDANTQVAwHhcNMTUxMjA4MTE0MDQwWhcNMTkwNDI1MTE0MDQwWjBTMQswCQYDVQQGEwJJTDEMMAoGA1UECAwDU0FQMQwwCgYDVQQHDANTQVAxDDAKBgNVBAoMA1NBUDEMMAoGA1UECwwDU0FQMQwwCgYDVQQDDANTQVAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJaQ4c4+990Jk/TheUSOaVTTM4dhqU62ib2vFf/tcEU6ZEhxkJtnm/JzIDpxxAsn4ag+fj1KLWoAz2bFYjxwJDj8WBINbpkCc3zMP+xggBzNsEtAzTPaaif77gTxSbynqIUDTkzw6DPvAUSXQ+FsZ/3mqv6KxdhoS8EfF9tMRRFzAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABVokG2SxNfSAetZHd+WYqZ1pmJm70ZoqGKxyJPw4rlCF5m4F8952z8xpnJ+Ig4UCCWzSf66My8B53V2UtoUkm6/3OpLSLXy+CEnY4NOs/pMc6bTRb+bxNpqzbiizhxvDWt+x6ULVdg7Iu24uTZHBFeS7f8BBELXOc4/4Xetfee0=</wsse:BinarySecurityToken>
+			<wsu:Timestamp wsu:Id="TS-381E465D3D7E6E38EC14867202307312591">
+				<wsu:Created>2017-02-10T09:50:30.730Z</wsu:Created>
+				<wsu:Expires>2017-02-10T09:55:30.730Z</wsu:Expires>
+			</wsu:Timestamp>
+			<saml1:Assertion xmlns:saml1="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AssertionID="_381E465D3D7E6E38EC14867202307312592" IssueInstant="2017-02-10T09:50:30.731Z" Issuer="EI" MajorVersion="1" MinorVersion="1" xsi:type="saml1:AssertionType">
+				<saml1:Conditions NotBefore="2017-02-10T09:50:30.731Z" NotOnOrAfter="2017-02-10T09:55:30.731Z"/>
+				<saml1:AuthenticationStatement AuthenticationInstant="2017-02-10T09:50:30.731Z" AuthenticationMethod="urn:oasis:names:tc:SAML:1.0:ac:classes:X509" xsi:type="saml1:AuthenticationStatementType">
+					<saml1:Subject>
+						<saml1:NameIdentifier Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified">MARIANTONY</saml1:NameIdentifier>
+						<saml1:SubjectConfirmation>
+							<saml1:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:sender-vouches</saml1:ConfirmationMethod>
+						</saml1:SubjectConfirmation>
+					</saml1:Subject>
+				</saml1:AuthenticationStatement>
+			</saml1:Assertion>
+			<wsse:SecurityTokenReference xmlns:wsse11="http://docs.oasis-open.org/wss/oasis-wss-wssecurity-secext-1.1.xsd" wsse11:TokenType="http://docs.oasis-open.org/wss/oasis-wss-saml-token-profile-1.1#SAMLV1.1" wsu:Id="STR-381E465D3D7E6E38EC14867202307312593">
+				<wsse:KeyIdentifier ValueType="http://docs.oasis-open.org/wss/oasis-wss-saml-token-profile-1.0#SAMLAssertionID">_381E465D3D7E6E38EC14867202307312592</wsse:KeyIdentifier>
+			</wsse:SecurityTokenReference>
+			<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-381E465D3D7E6E38EC14867202307422597">
+				<ds:SignedInfo>
+					<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+						<ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soap"/>
+					</ds:CanonicalizationMethod>
+					<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+					<ds:Reference URI="#TS-381E465D3D7E6E38EC14867202307312591">
+						<ds:Transforms>
+							<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+								<ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="wsse soap"/>
+							</ds:Transform>
+						</ds:Transforms>
+						<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+						<ds:DigestValue>rmabBz7A/A0cmHbUIbrvX0CgAQs=</ds:DigestValue>
+					</ds:Reference>
+					<ds:Reference URI="#STR-381E465D3D7E6E38EC14867202307312593">
+						<ds:Transforms>
+							<ds:Transform Algorithm="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#STR-Transform">
+								<wsse:TransformationParameters>
+									<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+								</wsse:TransformationParameters>
+							</ds:Transform>
+						</ds:Transforms>
+						<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+						<ds:DigestValue>h62/zWrMiC83hdtNBHCa0acdsiQ=</ds:DigestValue>
+					</ds:Reference>
+					<ds:Reference URI="#Id-1115746366">
+						<ds:Transforms>
+							<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+								<ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList=""/>
+							</ds:Transform>
+						</ds:Transforms>
+						<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+						<ds:DigestValue>34palBL8+VyYbffxpZ0UUMc3IgE=</ds:DigestValue>
+					</ds:Reference>
+				</ds:SignedInfo>
+				<ds:SignatureValue>Er2LrTOKRiCthiNcqJf/xmUrNV+a7TcvD5IKMX3baCE189g3Z39GBPjq497kwHgSbwcCYgnUD33c
+INFO   | jvm 1    | 2017/02/10 15:20:31.754 | sWXe55RciwyKi0DjJG9rLc63SFMmteGuqcTChzM60MXIeSvFtt2kT5JovDCV/FXzqgJ9/uyd2u16
+INFO   | jvm 1    | 2017/02/10 15:20:31.754 | 8FSvYrRfyQ+mU7b2Q0U=</ds:SignatureValue>
+				<ds:KeyInfo Id="KI-381E465D3D7E6E38EC14867202307412595">
+					<wsse:SecurityTokenReference wsu:Id="STR-381E465D3D7E6E38EC14867202307412596">
+						<wsse:Reference URI="#X509-381E465D3D7E6E38EC14867202307412594" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+					</wsse:SecurityTokenReference>
+				</ds:KeyInfo>
+			</ds:Signature>
+		</wsse:Security>
+	</soap:Header>
+	<soap:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="Id-1115746366">
+		<ns2:ReplicateIncident xmlns:ns2="urn:sap-com:document:sap:soap:functions:mc-style">
+			<IctAdditionalInfos>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPComponent</AddInfoAttribute>
+					<AddInfoValue>AC-INT</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCTestIdQC</AddInfoAttribute>
+					<AddInfoValue/>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCProjectIdSM</AddInfoAttribute>
+					<AddInfoValue>051MjgN47jQxrUctuCV4XG</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSystemClient</AddInfoAttribute>
+					<AddInfoValue>200</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCProjectQC</AddInfoAttribute>
+					<AddInfoValue>FH4Base1</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCTestNameQC</AddInfoAttribute>
+					<AddInfoValue/>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSystemID</AddInfoAttribute>
+					<AddInfoValue>FBT</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCDomainQC</AddInfoAttribute>
+					<AddInfoValue>MANDY</AddInfoValue>
+				</item>
+				<item>
+					<Guid/>
+					<ParentGuid/>
+					<AddInfoAttribute>SAPSMQCIsCommentsSD</AddInfoAttribute>
+					<AddInfoValue>X</AddInfoValue>
+				</item>
+			</IctAdditionalInfos>
+			<IctAttachments/>
+			<IctHead>
+				<IncidentGuid>5B5A1B3FEF7611E69276E3840A35954F</IncidentGuid>
+				<RequesterGuid>7B7AC2C892A511E592CEFDED0A35954F</RequesterGuid>
+				<ProviderGuid>005056B6A5C41EE6BBD313D3F5FC5E9A</ProviderGuid>
+				<AgentId/>
+				<ReporterId>103662447</ReporterId>
+				<ShortDescription>def5fh4</ShortDescription>
+				<Priority>4</Priority>
+				<Language>EN</Language>
+				<RequestedBegin>0</RequestedBegin>
+				<RequestedEnd>0</RequestedEnd>
+			</IctHead>
+			<IctId>5</IctId>
+			<IctPersons>
+				<item>
+					<PersonId>103662447</PersonId>
+					<PersonIdExt/>
+					<Sex/>
+					<FirstName>mandy</FirstName>
+					<LastName/>
+					<Telephone>
+						<PhoneNo/>
+						<PhoneNoExtension/>
+					</Telephone>
+					<MobilePhone/>
+					<Fax>
+						<FaxNo/>
+						<FaxNoExtension/>
+					</Fax>
+					<Email/>
+				</item>
+			</IctPersons>
+			<IctSapNotes/>
+			<IctSolutions/>
+			<IctStatements/>
+			<IctTimestamp>0</IctTimestamp>
+			<IctUrls/>
+		</ns2:ReplicateIncident>
+	</soap:Body>
+</soap:Envelope>

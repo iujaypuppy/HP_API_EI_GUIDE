@@ -37,6 +37,9 @@
             - [Important Paths](#important-paths)
         - [EI & Solman & ALM Communication Strcuture](#ei--solman--alm-communication-strcuture)
         - [EI & Solman & ALM Web Service Structure](#ei--solman--alm-web-service-structure)
+    - [Trouble Shooting](#trouble-shooting)
+        - [Logs](#logs)
+        - [Sapmle Inbound & Outbound Request and Response](#sapmle-inbound--outbound-request-and-response)
     - [Others](#others)
         - [Links](#links)
         - [Resources](#resources)
@@ -90,6 +93,7 @@
     * Jd-gui: decompiler
     * Remote Desktop Connection Manager: Easy to connect to VMs
     * Editor: Notepad++ | Sublime | VSCode | ...
+    * SoapUI: Send Soap request to reproduce customer's issues.
 
 
 ### Solman Setup
@@ -252,6 +256,10 @@
 * webapps\qcbin\Install\Extensions 
 ### EI & Solman & ALM Communication Strcuture
 ### EI & Solman & ALM Web Service Structure
+
+## Trouble Shooting
+### Logs
+### Sapmle Inbound & Outbound Request and Response
 
 ## Others
 ### Links

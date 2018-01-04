@@ -1,0 +1,53 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:sap-com:document:sap:soap:functions:mc-style">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:AgsSmAssociateProjects>
+         <!--Optional:-->
+         <AgsSmAssociatePrjRequest>
+            <!--Optional:-->
+            <LoginInfo>
+               <Username>qa</Username>
+               <Password>qa</Password>
+            </LoginInfo>
+            <ProjectInfo>
+               <ProjectId>branch_branch_1</ProjectId>
+               <ProjectAttr>syncmerge</ProjectAttr>
+            </ProjectInfo>
+            <ParentProjectInfo>
+              <ProjectId>Branch1</ProjectId>
+               <ProjectAttr>syncmerge</ProjectAttr>
+            </ParentProjectInfo>
+            <AssociationId>0039wgEk7jIlciVjkCl1C1</AssociationId>
+            <SolmanSlanInfo>
+               <SolutionLandscapeId>?</SolutionLandscapeId>
+               <SolutionLandscapeName>?</SolutionLandscapeName>
+               <BranchId>29u1GJJL7kIobbnuquzAO1</BranchId>
+               <BranchName>childs</BranchName>
+               <ViewId>0039wgEk7jIkxn{vBEzNyW</ViewId>
+               <ViewName>default View</ViewName>
+               <!--Optional:-->
+               <ParentBranchId>29u1GJJL7kIobbnuquzAO0</ParentBranchId>
+               <!--Optional:-->
+               <ParentBranchName>base</ParentBranchName>
+               <SolmanSystemId>?</SolmanSystemId>
+               <SolManSystemNumber>?</SolManSystemNumber>
+            </SolmanSlanInfo>
+            <SolmanApplInfo>
+               <BlueprintApiWsdlUrl>http://test.com</BlueprintApiWsdlUrl>
+               <Description>?</Description>
+               <Server>?</Server>
+               <ServiceDeskAddApiWsdlUrl>http://test2.com</ServiceDeskAddApiWsdlUrl>
+               <ServiceDeskStdApiWsdlUrl>http://test3.com</ServiceDeskStdApiWsdlUrl>
+               <ExtPushBlueprintUrl>http://test4.com</ExtPushBlueprintUrl>
+            </SolmanApplInfo>
+            <AdditionalInfo>
+               <!--Zero or more repetitions:-->
+               <item>
+                  <Name>?</Name>
+                  <Value>?</Value>
+               </item>
+            </AdditionalInfo>
+         </AgsSmAssociatePrjRequest>
+      </urn:AgsSmAssociateProjects>
+   </soapenv:Body>
+</soapenv:Envelope>
