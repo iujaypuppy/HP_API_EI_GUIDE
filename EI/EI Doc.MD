@@ -306,6 +306,7 @@ DB Type | Server | Account | Comment
 SQL Server | 16.186.77.172 | sa/1Qaz2wsx3edc | jdbc:mercury:sqlserver://16.186.77.172:1433
 Oracle | 16.155.198.156 | system/W3lcome1 |  jdbc:mercury:oracle://16.155.198.156:1521;servicename=orcl.hpeswlab.net
 SQL Server | EI2008R2.hpeswlab.net\EISQL2008R2 | sa\1Qaz2wsx3edc | port = 1443
+Oracle | mydphdb0293.hpeswlab.net:1521 | system\oracle | servicename=almrnd293.hpeswlab.net
 
 ### Emails for Consult
 Type | Name | Email | Comment
