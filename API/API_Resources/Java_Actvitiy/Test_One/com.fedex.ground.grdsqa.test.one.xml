@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resource type="Activity" id="com.fedex.ground.grdsqa.test.one" version="1.0.0" group="FedEx" shortName="Test_One" description="" assembly="Test_OneProject.dll" className="Test_OneProject.Test_One" image="ActivityIcon.png" visible="true" draggable="true" xmlns="http://hp.vtd.schemas/signature/v1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hp.vtd.schemas/signature/v1.0 ../../../dat/schemas/Signature.xsd">
+  <Section name="GeneralProperties" displayName="General Properties">
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:types="http://hp.vtd.schemas/types/v1.0">
+      <xs:import namespace="http://hp.vtd.schemas/types/v1.0" schemaLocation="../../../dat/schemas/Types.xsd" />
+      <xs:element name="Arguments" types:displayName="Properties">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" type="xs:string" types:destination="false" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </Section>
+  <Section name="InputProperties" isSharedMetaData="true" displayName="Input">
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:types="http://hp.vtd.schemas/types/v1.0">
+      <xs:import namespace="http://hp.vtd.schemas/types/v1.0" schemaLocation="../../../dat/schemas/Types.xsd" />
+      <xs:element name="Arguments" types:displayName="Properties">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="value" type="xs:string" types:displayName="Value" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </Section>
+  <Section name="OutputProperties" source="true" dest="true" checkPoint="true" displayName="Checkpoints">
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:types="http://hp.vtd.schemas/types/v1.0">
+      <xs:import namespace="http://hp.vtd.schemas/types/v1.0" schemaLocation="../../../dat/schemas/Types.xsd" />
+      <xs:element name="Arguments" types:displayName="Properties">
+        <xs:complexType>
+          <xs:sequence></xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </Section>
+  <Section name="Alerts"></Section>
+</Resource>

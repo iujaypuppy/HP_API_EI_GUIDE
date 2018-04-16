@@ -1,0 +1,2 @@
+cd "C:\Users\830459\Documents\ActivityWizardProjects\Test_One\hp\custom\java\activity"
+"%JAVA_HOME%\bin\javac.exe" -cp "%ST_INSTALL_PATH%\Addins\ServiceTest\JavaCall\Java Interface\bin\ServiceTestCall.jar" *.java

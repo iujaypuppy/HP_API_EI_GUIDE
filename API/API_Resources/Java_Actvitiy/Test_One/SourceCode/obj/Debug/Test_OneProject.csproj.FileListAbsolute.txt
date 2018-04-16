@@ -1,0 +1,7 @@
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode\obj\Debug\Test_OneProject.csprojResolveAssemblyReference.cache
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode\obj\Debug\Test_OneProject.Properties.Resources.resources
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode\obj\Debug\Test_OneProject.csproj.GenerateResource.Cache
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode\obj\Debug\Test_OneProject.dll
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode\obj\Debug\Test_OneProject.pdb
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\Test_OneProject.dll
+C:\Users\830459\Documents\ActivityWizardProjects\Test_One\Test_OneProject.pdb

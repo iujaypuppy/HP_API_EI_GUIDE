@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ActivityGeneratorSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetPath>C:\Users\830459\Documents\ActivityWizardProjects\Test_One</TargetPath>
+  <ActivityClassName>Test_One</ActivityClassName>
+  <AssemblyName>Test_OneProject</AssemblyName>
+  <ProjectSettings>
+    <TargetFolder>C:\Users\830459\Documents\ActivityWizardProjects\Test_One\SourceCode</TargetFolder>
+    <AssemblyName>Test_OneProject</AssemblyName>
+    <OutputPath>C:\Users\830459\Documents\ActivityWizardProjects\Test_One</OutputPath>
+    <ActivityClassName>Test_One</ActivityClassName>
+    <ActivityClassFileName>Test_OneProject.cs</ActivityClassFileName>
+    <ActivityPartialClassFileName>Test_OneProject.Properties.cs</ActivityPartialClassFileName>
+    <ProjectFileName>Test_OneProject.csproj</ProjectFileName>
+    <SolutionFileName>Test_OneProject.sln</SolutionFileName>
+    <ProjectNamespace>Test_OneProject</ProjectNamespace>
+  </ProjectSettings>
+  <JavaProjectSettings>
+    <TargetFolder>C:\Users\830459\Documents\ActivityWizardProjects\Test_One\hp\custom\java\activity</TargetFolder>
+    <IsActive>true</IsActive>
+  </JavaProjectSettings>
+  <SignatureSettings>
+    <Type>Activity</Type>
+    <ID>com.fedex.ground.grdsqa.test.one</ID>
+    <Version>1.0.0</Version>
+    <Group>FedEx</Group>
+    <DisplayName>Test_One</DisplayName>
+    <Description>// Please describe your activity...</Description>
+    <RunTimeAssembly>Test_OneProject.dll</RunTimeAssembly>
+    <RunTimeClass>Test_OneProject.Test_One</RunTimeClass>
+    <IconPath>ActivityIcon.png</IconPath>
+    <Visible>true</Visible>
+    <Draggable>true</Draggable>
+  </SignatureSettings>
+  <SignatureProperties>
+    <Property>
+      <Section>InputProperties</Section>
+      <Name>value</Name>
+      <DisplayName>Value</DisplayName>
+      <Type>String</Type>
+      <Description />
+      <IsArray>false</IsArray>
+      <MultiLine>false</MultiLine>
+      <Visible>true</Visible>
+      <ReadOnly>false</ReadOnly>
+      <CheckPoint>false</CheckPoint>
+      <Source>true</Source>
+      <Dest>true</Dest>
+      <Masked>false</Masked>
+      <Report>true</Report>
+    </Property>
+  </SignatureProperties>
+</ActivityGeneratorSettings>
