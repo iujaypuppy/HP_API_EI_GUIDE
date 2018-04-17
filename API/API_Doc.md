@@ -41,10 +41,23 @@
     * Apache CXF: simulate web services.
     * ActiveMQ: simulate JMS services.
 
-
-## Environment Configuration
+## Environment
+### Compile
+### Debug
+### Log
 
 ## Structure
+### UTT
+* `WsSecurity`
+* XmlGrid
+### ST
+* SOATestDesigner
+* SOA2BasicFWK
+* SOA2TechImplEXT
+* SOA2TechRTFWK
+* SOA2TechRTFWKCpp
+* TechImplExtCpp
+* SharedComponents
 
 ## Trouble Shooting
 
